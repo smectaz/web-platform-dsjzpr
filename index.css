@@ -1,0 +1,47 @@
+:root {
+  --primary-color: blue;
+}
+
+body {
+  margin: 0;
+  font-family: arial;
+}
+
+.navbar {
+  display: flex;
+  background-color: (--primary-color);
+  color: white;
+  padding: 16px;
+}
+
+.container {
+  width: calc(100% - 32px);
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  color: (--primary-color);
+  font-size: 24pt;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+  font-size: 16pt;
+  color: black;
+}
+
+a:any-link {
+  color: white;
+  margin-left: 8px;
+  text-decoration: none;
+}
+
+.btn {
+  background-color: #26f784;
+  color: black;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 16pt;
+  cursor: pointer;
+}
